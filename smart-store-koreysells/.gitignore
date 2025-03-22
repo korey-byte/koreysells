@@ -33,3 +33,4 @@ data/interim/
 *.egg-info/
 dist/
 build/
+../Java-Spark-Install/
