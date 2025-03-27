@@ -1,0 +1,9 @@
+productid,productname,category,unitprice,stockquantity,supplier
+101,laptop,Electronics,793.12, 10, Apple
+102,hoodie,Clothing,39.1, 23320, Nike
+103,cable,Electronics,22.76, 30, Samsung
+104,hat,Clothing,43.1, 40, Adidas
+105,football,Sports,19.78, 50, Puma
+106,controller,Electronics,88.98, 60, Son3y
+107,jacket,Clothing,67.02, , Under Armour
+108,protector,Electronics,12.56, 8d0, LG

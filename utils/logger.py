@@ -26,3 +26,6 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 logger.info("Logging to file: logs/project_log.log")
+
+def get_logger(name: str) -> logging.Logger:
+    return logger
