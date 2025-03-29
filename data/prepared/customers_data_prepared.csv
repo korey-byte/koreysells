@@ -1,12 +1,9 @@
-CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
-1001,William White,East,11/11/2021, 50, Email
-1002,Wylie Coyote,East,2/14/2023, 100, Phon1e
-1003,Dan Brown,West,10/19/2023, 75, Email
-1004,Chewbacca,West,11/9/2022, 25, Phonfe
-1005,Dr Who,North,8/18/2023, 15d0, Email
-1006,Tiffany James,South,6/7/2021, d, Phone
-1007,Susan Johnson,South,6/30/2023, 100, Email
-1008,Tony Stark,North,5/1/2020, 300, Phone
-1009,Jason Bourne,West,12/1/2020, 250, Email
-1010,Hermione Granger,East,12/9/2022, , Phone
-1011,Hermione Grager,East,12/9/2022, 200, Phone
+customerid,name,region,joindate,loyaltypoints,preferredcontactmethod
+1001,William White,East,11/11/2021,50.0, Email
+1002,Wylie Coyote,East,2/14/2023,100.0, Phon1e
+1003,Dan Brown,West,10/19/2023,75.0, Email
+1004,Chewbacca,West,11/9/2022,25.0, Phonfe
+1007,Susan Johnson,South,6/30/2023,100.0, Email
+1008,Tony Stark,North,5/1/2020,300.0, Phone
+1009,Jason Bourne,West,12/1/2020,250.0, Email
+1011,Hermione Grager,East,12/9/2022,200.0, Phone
