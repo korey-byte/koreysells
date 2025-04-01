@@ -71,6 +71,16 @@ smart-store-koreysells/
   - `sales_data.csv`: Cleaned amounts, standardized fields.
 - Saved outputs in `data/prepared/`.
 
+### ✅ P4 - Data Warehouse Design & Population
+
+- Designed and created a **star schema** with:
+  - `sales` as the fact table
+  - `customers` and `products` as dimension tables
+- Added custom columns like `loyaltypoints`, `preferredcontactmethod`, `stockquantity`, and `store_id` for richer analytics.
+- Created and connected tables using `sqlite3` in `scripts/etl_to_dw.py`
+- Loaded cleaned data from `data/prepared/` directly into the warehouse at `data/dw/smart_sales.db`
+- Verified table creation and population using VS Code SQLite Viewer.
+
 ---
 
 ## 🔁 Key Commands
@@ -90,7 +100,7 @@ PYTHONPATH=. python3 scripts/data_prepared/prepare_sales_data.py
 # Git workflow
 git pull origin main
 git add .
-git commit -m "Cleaned and prepared smart store data with DataScrubber"
+git commit -m "Cleaned and loaded data into DW"
 git push origin main
 ```
 
