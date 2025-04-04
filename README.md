@@ -13,15 +13,17 @@ smart-store-koreysells/
 │   │   ├── customers_data.csv
 │   │   ├── products_data.csv
 │   │   └── sales_data.csv
-│   └── prepared/
-│       ├── customers_data_prepared.csv
-│       ├── products_data_prepared.csv
-│       └── sales_data_prepared.csv
+│   ├── prepared/
+│   │   ├── customers_data_prepared.csv
+│   │   ├── products_data_prepared.csv
+│   │   └── sales_data_prepared.csv
+│   └── dw/
+│       └── smart_sales.db
 ├── logs/
 ├── scripts/
 │   ├── data_scrubber.py
 │   ├── data_prep.py
-│   ├── autofill_sales_columns.py
+│   ├── etl_to_dw.py
 │   └── data_prepared/
 │       ├── prepare_customers_data.py
 │       ├── prepare_products_data.py
@@ -73,13 +75,15 @@ smart-store-koreysells/
 
 ### ✅ P4 - Data Warehouse Design & Population
 
-- Designed and created a **star schema** with:
-  - `sales` as the fact table
-  - `customers` and `products` as dimension tables
-- Added custom columns like `loyaltypoints`, `preferredcontactmethod`, `stockquantity`, and `store_id` for richer analytics.
-- Created and connected tables using `sqlite3` in `scripts/etl_to_dw.py`
-- Loaded cleaned data from `data/prepared/` directly into the warehouse at `data/dw/smart_sales.db`
-- Verified table creation and population using VS Code SQLite Viewer.
+	•	Designed a Star Schema:
+	  •	Fact Table: sales
+	  •	Dimension Tables: customers, products
+	•	Created the database smart_sales.db in data/dw/ using SQLite.
+	•	Built and loaded the tables using the ETL script scripts/etl_to_dw.py.
+	•	Added critical fields to support deeper analytics, such as:
+	  •	loyaltypoints, preferredcontactmethod, store_id, stockquantity
+	•	Handled ETL errors by matching CSV column names to database schemas exactly.
+	•	Verified table structure and data population using VS Code SQLite Viewer.
 
 ---
 
