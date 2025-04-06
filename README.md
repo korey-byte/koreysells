@@ -87,7 +87,7 @@ smart-store-koreysells/
 
 ---
 
-# 📊 P5 Final Assignment: Cross-Platform Reporting (MacOS)
+### ✅ P5 -  Final Assignment: Cross-Platform Reporting (MacOS)
 
 - Connected to SQLite database (smart_sales.db) using PySpark.
 - Loaded sales, customers, and products data into Spark DataFrames.
