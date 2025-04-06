@@ -96,6 +96,19 @@ smart-store-koreysells/
 - Built Top Customers bar chart and Sales Trend line chart using Seaborn/Matplotlib.
 - Documented final analysis work in `final_p5_work.ipynb`.
   
+### ✅ P6 - OLAP Analysis & Insights (MacOS)
+
+- Connected to the SQLite database (smart_sales.db) directly using Python.
+- Performed OLAP analysis by joining the sales and products tables.
+- Aggregated total sales_amount by product category.
+- Created a bar chart visualizing Total Sales by Product Category.
+- Saved output graph (p6_sales_by_category.png) inside scripts/OLAP/.
+- Challenges: 
+  - Initial SQL query failed due to incorrect column name (sale_amount vs sales_amount).
+  - Solved by manually checking table columns inside the database.
+- Suggested Business Action:
+  - Focus marketing efforts on Electronics, which dominated total sales.
+
 ---
 
 ## 🔁 Key Commands
