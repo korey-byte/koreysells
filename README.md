@@ -87,6 +87,17 @@ smart-store-koreysells/
 
 ---
 
+# 📊 P5 Final Assignment: Cross-Platform Reporting (MacOS)
+
+- Connected to SQLite database (smart_sales.db) using PySpark.
+- Loaded sales, customers, and products data into Spark DataFrames.
+- Queried total revenue per customer using Spark SQL.
+- Created drilldown aggregations by Year, Quarter, and Month.
+- Built Top Customers bar chart and Sales Trend line chart using Seaborn/Matplotlib.
+- Documented final analysis work in `final_p5_work.ipynb`.
+  
+---
+
 ## 🔁 Key Commands
 
 ```bash

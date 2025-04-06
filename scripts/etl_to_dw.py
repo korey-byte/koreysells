@@ -49,6 +49,9 @@ CREATE TABLE IF NOT EXISTS sales (
     sales_amount REAL,
     shipping_cost REAL,
     promotion_code TEXT,
+    campaignid TEXT,
+    discountpercent REAL,
+    paymenttype TEXT,
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
     FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
@@ -83,7 +86,12 @@ sales_df = sales_df.rename(columns={
     "transactionid": "transaction_id",
     "saledate": "date",
     "saleamount": "sales_amount",
-    "storeid": "store_id"
+    "storeid": "store_id",
+    "customerid": "customer_id",
+    "productid": "product_id",
+    "campaignid": "campaignid",
+    "discountpercent": "discountpercent",
+    "paymenttype": "paymenttype"
 })
 
 # Optional: Delete existing records before loading
