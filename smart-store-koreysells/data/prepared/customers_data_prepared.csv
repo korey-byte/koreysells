@@ -1,0 +1,9 @@
+customerid,name,region,joindate,loyaltypoints,preferredcontactmethod
+1001,William White,East,11/11/2021,50.0, Email
+1002,Wylie Coyote,East,2/14/2023,100.0, Phon1e
+1003,Dan Brown,West,10/19/2023,75.0, Email
+1004,Chewbacca,West,11/9/2022,25.0, Phonfe
+1007,Susan Johnson,South,6/30/2023,100.0, Email
+1008,Tony Stark,North,5/1/2020,300.0, Phone
+1009,Jason Bourne,West,12/1/2020,250.0, Email
+1011,Hermione Grager,East,12/9/2022,200.0, Phone

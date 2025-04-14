@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Data files (raw, processed, intermediate)
+data/raw/
+data/processed/
+data/interim/
+
+# Environment & config files
+.env
+*.env
+
+# Installers
+*.egg-info/
+dist/
+build/
+../Java-Spark-Install/
